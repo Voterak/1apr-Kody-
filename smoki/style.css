@@ -1,0 +1,62 @@
+* {
+    text-align: center;
+    font-family: Georgia;
+}
+header, footer {
+    color: mistyrose;
+    background-color: tomato;
+    padding: 10px;
+}
+
+#nawigacyjny {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    float: left;
+}
+#blok1 {
+    background-color: mistyrose;
+    height: 170px;
+    font-size: 200%;
+}
+#blok2 {
+    background-color: #FFAEA5;
+    height: 170px;
+    font-size: 200%;
+}
+#blok3 {
+    background-color: #FFAEA5;
+    height: 170px;
+    font-size: 200%;
+}
+#glowny {
+    display: flex;
+    flex-direction: column;
+    background-color: mistyrose;
+    width: 80%;
+    height: 510px;
+    overflow: auto;
+    float: right;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+#sekcja, #sekcja2 {
+    display: none;
+}
+table {
+    margin: auto;
+    width: 60%;
+    border: dashed 1px indigo;
+}
+form {
+    margin: 20px;
+}
+dt {
+    font-weight: bold;
+    font-style: italic;
+}
+dt:hover {
+    font-size: 180%;
+}
